@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    
+<div class="container py-5 my-5">
+
+    <!-- login form -->
+<div class="form-one py-5 my-5" id="formOne">
+    <div class="mb-3">
+        <input type="text" class="form-control bg-transparent border-light text-white " id="link" placeholder="Enter your email" required>
+      </div>
+
+      <div class="mb-3">
+        <input type="password" class="form-control bg-transparent  border-light text-white" id="password" placeholder="Enter password" required>
+        <p class="text-danger"></p>
+ 
+    </div>
+
+      <button type="button " class="btn btn-outline-light  py-2 px-5 w-100 " id="login">Login</button>
+      <p class="mt-4 text-center">Don't have an account ? <span id="signUp">Sign Up</span> </p>
+
+
+</div>
+
+    <!-- sign up form -->
+<div class="form-two d-none py-5 my-5" id="formTwo">
+    <div class="mb-3">
+        <input type="text" class="form-control bg-transparent border-light text-white" id="name" placeholder="Enter your name" required>
+        <p class="text-danger"></p>
+      </div>
+
+      <div class="mb-3">
+        <input type="email" class="form-control bg-transparent  border-light text-white" id="email" placeholder="Enter your email" required>
+        <p class=" text-danger"></p>
+  
+    </div>
+
+      <div class="mb-3">
+        <input type="password" class="form-control bg-transparent border-light text-white" id="pass" placeholder="Enter password" required>
+        <p class="text-danger"></p>
+ 
+    </div>
+
+      <button type="button " class="btn btn-outline-light  py-2 px-5 w-100" id="signBtn">Sign Up</button>
+      <p class="mt-4 text-center">You have an account ? <span id="signIn">Sign in</span> </p>
+
+
+</div>
+</div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

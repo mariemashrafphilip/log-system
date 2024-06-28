@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to left ,rgb(0, 145, 255),pink,pink);
+    
+}
+.container{
+    width: 50%;
+}
+
+p{
+    color: white;
+}
+
+#signUp{
+    cursor: pointer;
+    font-size: 20px;
+}
+#signIn{
+    cursor: pointer;
+    font-size: 20px;
+}
